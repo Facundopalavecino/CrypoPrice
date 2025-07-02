@@ -13,7 +13,8 @@ const CryptoCard: React.FC<Props> = ({ crypto, featured }) => {
 
   return (
     <div className="crypto-card">
-      {featured && <span className="featured-badge">Featured ⭐</span>}
+      <div className="content">
+      {featured && <span className="featured-badge">Destacado ⭐</span>}
       <img
         src={crypto.image}
         alt={crypto.name}
@@ -25,6 +26,7 @@ const CryptoCard: React.FC<Props> = ({ crypto, featured }) => {
       <p className={priceChangeClass}>
         📈 Variación 24hs: {crypto.price_change_percentage_24h.toFixed(2)}%
       </p>
+      </div>
     </div>
   );
 };

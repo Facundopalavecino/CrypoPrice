@@ -21,6 +21,7 @@
 
 .search-bar button {
   background-color: #3b82f6;
+  height: 4rem;
   color: white;
   border: none;
   border-radius: 8px;

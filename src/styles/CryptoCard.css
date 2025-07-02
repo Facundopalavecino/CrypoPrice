@@ -1,15 +1,15 @@
 .crypto-card {
   position: relative;
-  background: #f9f9fb;
+  background: #e2e2f6;
   border-radius: 10px;
   padding: 1.5rem;
-  box-shadow: 0 4px 8px rgb(59 130 246 / 0.2);
   transition: transform 0.3s ease;
   cursor: pointer;
 }
 
 .crypto-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  box-shadow: 0 80px 80px rgba(178, 168, 215, 0.2); 
 }
 
 .crypto-image {

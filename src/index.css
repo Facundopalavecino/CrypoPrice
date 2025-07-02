@@ -8,22 +8,15 @@
 
 body{
   background: #151045;
-
 }
 
 /* Contenedor general */
 .container {
+  background: #151041;
   max-width: 960px;
   margin: 2rem auto;
   padding: 0 1rem;
   text-align: center;
-}
-
-/* Título principal */
-h1 {
-  color: #ffffff; 
-  margin-bottom: 1.5rem;
-  font-weight: 700;
 }
 
 /* Lista de criptomonedas */
@@ -36,7 +29,7 @@ h1 {
 
 /* Mensajes */
 p {
-  color: #555;
+  color: #d9d4d4;
   font-size: 1.1rem;
 }
 
@@ -50,6 +43,7 @@ p {
   color: red;
   font-weight: 600;
 }
+
 
 @media (max-width: 600px) {
   .crypto-list {

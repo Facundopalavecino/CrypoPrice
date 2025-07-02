@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SearchBar from "../components/SearchBar";
 import { getCryptoByName } from "../api/cryptoApi";
 import type { Crypto } from "../types/crypto";
+import Header from "../components/Header";
 import CryptoCard from "../components/CryptoCard";
 import Loader from "../components/Loader";
 import FeaturedCryptos from "../components/FeaturedCryptos";
@@ -19,8 +20,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="container">
-      <h1>Crypto Price</h1>
-    
+      <Header/>
       <SearchBar onSearch={handleSearch} />
 
       {loading && <Loader />}
