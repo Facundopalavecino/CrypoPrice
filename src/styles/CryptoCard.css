@@ -1,0 +1,45 @@
+.crypto-card {
+  position: relative;
+  background: #f9f9fb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgb(59 130 246 / 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.crypto-card:hover {
+  transform: translateY(-5px);
+}
+
+.crypto-image {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.crypto-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.crypto-card p {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #475569;
+}
+
+.featured-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #facc15;
+  color: #1e293b;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background: #151045;
+
+}
+
+/* Contenedor general */
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  color: #ffffff; 
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* Lista de criptomonedas */
+.crypto-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Mensajes */
+p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Positivo / negativo en CryptoCard */
+.positive {
+  color: green;
+  font-weight: 600;
+}
+
+.negative {
+  color: red;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .crypto-list {
+    grid-template-columns: 1fr;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+}
