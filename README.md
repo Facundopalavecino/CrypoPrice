@@ -17,7 +17,7 @@
 
 ## 🌐 Demo Online
 
-👉 [Ver aplicación en línea](#) *----*
+👉 [https://crypo-price.vercel.app/](#) *----*
 
 ---
 
@@ -30,15 +30,8 @@
 - 🎨 CSS personalizado y responsivo
 
 ---
-📌 Estado del proyecto
+
 ✅ Proyecto completado, funcional y responsivo.
-🔜 Posibles mejoras:
-
-* Filtrado por rango de precio
-
-* Histórico de precios en gráfico
-
-* Conversor de criptomonedas
 
 👨‍💻 Autor
 Facundo Palavecino – Frontend Developer en formación
