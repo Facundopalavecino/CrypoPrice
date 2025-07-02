@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Crypto } from "../types/crypto";
+import type { Crypto } from "../types/crypto";
 import CryptoCard from "./CryptoCard";
 import "../styles/CryptoCard.css";
 

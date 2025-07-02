@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SearchBar from "../components/SearchBar";
 import { getCryptoByName } from "../api/cryptoApi";
-import { Crypto } from "../types/crypto";
+import type { Crypto } from "../types/crypto";
 import CryptoCard from "../components/CryptoCard";
 import Loader from "../components/Loader";
 import FeaturedCryptos from "../components/FeaturedCryptos";

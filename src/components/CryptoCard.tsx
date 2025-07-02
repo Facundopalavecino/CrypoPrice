@@ -1,5 +1,5 @@
 import React from "react";
-import { Crypto } from "../types/crypto";
+import type { Crypto } from "../types/crypto";
 import "../styles/CryptoCard.css";
 
 interface Props {
